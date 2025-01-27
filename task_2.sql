@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS books (
 -- Create 'authors' table
 CREATE TABLE IF NOT EXISTS authors (
     author_id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
+    author_name VARCHAR(255) NOT NULL,
     bio TEXT
 );
 
