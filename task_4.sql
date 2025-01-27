@@ -1,0 +1,4 @@
+-- Get full description of the table 'books' in the database
+SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH, IS_NULLABLE, COLUMN_KEY, EXTRA\n
+FROM INFORMATION_SCHEMA.COLUMNS\n
+WHERE TABLE_SCHEMA = 'alx_book_store' AND TABLE_NAME = 'books';
